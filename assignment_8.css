@@ -1,0 +1,47 @@
+body{
+    background-color: #000000;
+}
+.total{
+    height: 98vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100px;
+    width: 300px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: 5px solid #ffffff;
+    border-radius: 60px;
+    overflow: hidden;
+    position: absolute;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.one{
+    z-index: 4;
+}
+.two{
+    position: relative;
+    left: 90px;
+    z-index: 3;
+}
+.three{
+    position: relative;
+    left: 175px;
+    top: -110px;
+    z-index: 2;
+}
+.four{
+    position: relative;
+    left: 260px;
+    top: -218px;
+    z-index: 1;
+}

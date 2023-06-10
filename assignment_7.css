@@ -1,0 +1,23 @@
+.total{
+    height: 40px;
+    width: 99vw;
+    background-color: #fa090962;
+    border-left: 5px solid #f31111;
+    border-radius: 10px;
+    position: fixed;
+    top: 30px;
+    display: flex;
+    gap: 38%;
+}
+p{
+    color: #f31111;
+    position: relative;
+    top: -11%;
+    font-weight: bold;
+}
+img{
+    height: 30px;
+    margin-left: 9px;
+    position: relative;
+    top: 11%;
+}

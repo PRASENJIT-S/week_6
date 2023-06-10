@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+header{
+    height: 50px;
+    width: 100vw;
+    box-shadow: 0 -5px 10px 4px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+header > img{
+    height: 35px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.navigation{
+    position: relative;
+    top: -26px;
+}
+.navigation > p{
+    margin-left: 49px;
+}
+.nav_div{
+    position: relative;
+    left: 70%;
+    top: -17px;
+    display: flex;
+   gap: 50px;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    height: 25px;
+    width: 80px;
+}
+.two{
+    height: 25px;
+    width:74px;
+    border-radius: 5px;
+    border: 2px solid #0000002e;
+}
+.three{
+    height: 27px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #2e25d5;
+}
+.one > a{
+    position: relative;
+    left: 5px;
+    top: 2px;
+    color: #4843b5;
+}
+.two > a{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    color: #4843b5;
+}
+.three > a{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    color: #ffffff;
+}
+.total{
+    display: flex;
+}
+.left{
+    width: 49vw;
+    height: 90vh;
+}
+.first{
+    height: 300px;
+    width: 45vw;
+    position: relative;
+    top: 170px;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 95px;
+}
+.second{
+    height: 100px;
+    width: 70%;
+    position: relative;
+    top: 170px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.third{
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin-left: 25px;
+    gap: 60px;
+}
+.right{
+    width: 49vw;
+    height: 80vh;
+    padding-top: 80px;
+    overflow: hidden;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}

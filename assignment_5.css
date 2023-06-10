@@ -1,0 +1,43 @@
+body{
+    background-color: #000000;
+}
+h1{
+    color: #ed2525;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.total{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: 10vw;
+}
+.container{
+    width: 30%;
+}
+img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 80px;
+}
+p{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.first{
+    background-color: #28d3d3;
+}
+.second{
+    background-color: #ea125a;
+}
+.third{
+    background-color: #0418b2;
+}
+.container h1{
+    margin-bottom: 0px;
+    color: #000000;
+}

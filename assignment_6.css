@@ -1,0 +1,43 @@
+body{
+    background-color: #000000;
+}
+.container{
+    height: 98vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total{
+    height: 35vh;
+    width: 40vw;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 20px;
+}
+.main{
+    height: 25px;
+    border: 1px solid #ffffff6a;
+    border-radius: 13px;
+    display: flex;
+    gap: 2%;
+}
+img{
+    height: 20px;
+    position: relative;
+    top: 2px;
+}
+.search{
+    margin-left: 7px;
+}
+input{
+    height: 95%;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}

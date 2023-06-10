@@ -1,0 +1,46 @@
+body{
+    background-color: #50646a;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: #1c1cd0;
+    margin-bottom: 0px;
+}
+h3{
+    text-align: center;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 320px;
+    height: 400px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+}
+.item p{
+   margin: 10px 10px 25px;
+}
+.pera{
+    font-size: 20px;
+    color: #1c1cd0;
+}
+.teacher{
+    font-weight: bold;
+}
+.item h1{
+    text-align: start;
+    margin: 10px;
+    color: #000;
+}
